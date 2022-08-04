@@ -47,7 +47,6 @@ export default class Clock extends React.Component {
     };
 
     return (
-      <div>
         <div className="clock-container styling">
           <div id="clock" className="clock-content">
 
@@ -81,8 +80,6 @@ export default class Clock extends React.Component {
             <div className="indicator-cover"></div>
           </div>
         </div>
-        { /*<div className="digital"> {this.state.date.toLocaleTimeString()}</div>*/ }
-      </div>     
     );
   }
 }
