@@ -33,13 +33,18 @@
   justify-content: center;
   align-items: center;
 
+  .img {
+    width: 18%;
+    border-radius: 50%;
+    z-index: 10;
+  }
+
   .background-numbers {
     position: absolute;
     width: 90%;
     height: 90%;
     top: 5%;
     left: 5%;
-    z-index: 1;
     .numbers {
       fill: grey;
     }
@@ -52,11 +57,16 @@
     position: absolute;
     bottom: 50%;
 
+    .haochen {
+      margin-left: 1em;
+    }
+    
     &.seconds-indicator {
       width: 0.5%;
-      height: 37.5%;
+      height: 33.5%;
       z-index: 2;
       background-color: #dfc48c;
+      // transform: rotateZ(1deg);
       &.transition-effect {
       }
     }
